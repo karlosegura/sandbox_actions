@@ -8,6 +8,18 @@ on:
   schedule:
     - cron: '15 6 * * 0'
   workflow_dispatch:
+    inputs:
+      environment:
+        description: 'ambiente a desplegar'
+        type: environment
+        required: true
+        
+        
+       
+            
+          
+       
+      
   
   
     
